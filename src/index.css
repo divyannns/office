@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Login.css */
+body {
+  background-color: #121212; /* Dark background for the entire page */
+  color: white; /* White text for better readability */
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.min-vh-100 {
+  min-height: 100vh; /* Full viewport height */
+}
+
+.rounded {
+  border-radius: 10px; /* Rounded corners for the form */
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.p-4 {
+  padding: 1.5rem; /* Padding inside the form */
+}
+
+h1 {
+  font-weight: bold; /* Bold heading */
+}
+
+.form-control {
+  background-color: #18112980; /* Input background */
+  color: white; /* Input text color */
+  border: 1px solid #5b56f7; /* Border color for inputs */
+}
+
+.form-control:focus {
+  border-color: #5b56f7; /* Border color when focused */
+  box-shadow: 0 0 0 0.2rem rgba(91, 86, 247, 0.25); /* Glow effect on focus */
+}
+
+.btn-primary {
+  background-color: #5b56f7; /* Button color */
+  border: none; /* Remove default border */
+}
+
+.btn-primary:hover {
+  background-color: #4a4ae6; /* Darker button on hover */
+}
+
+
+/* #root{
+  background-image: url("https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background: hsla(197, 14%, 57%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(197, 14%, 57%, 1) 0%,
+    hsla(192, 17%, 94%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(197, 14%, 57%, 1) 0%,
+    hsla(192, 17%, 94%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(197, 14%, 57%, 1) 0%,
+    hsla(192, 17%, 94%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8399A2", endColorstr="#EEF2F3", GradientType=1 );
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin: 20px 0;
+} */

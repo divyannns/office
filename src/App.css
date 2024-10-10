@@ -1,0 +1,79 @@
+/* Login.css */
+body {
+  background-color: #121212; /* Dark background for the entire page */
+  color: #fff; /* White text for better readability */
+  font-family: 'Poppins', sans-serif; /* Using the Poppins font */
+  margin: 0; /* Reset default margins */
+}
+
+.d-flex {
+  display: flex; /* Enable flexbox layout */
+}
+
+.align-items-center {
+  align-items: center; /* Vertically center align items */
+}
+
+.justify-content-center {
+  justify-content: center; /* Horizontally center align items */
+}
+
+.min-vh-100 {
+  min-height: 100vh; /* Full viewport height */
+}
+
+.rounded {
+  border-radius: 10px; /* Rounded corners for the form */
+}
+
+.shadow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* More prominent shadow for depth */
+}
+
+.p-4 {
+  padding: 2rem; /* Padding inside the form */
+}
+
+h1 {
+  font-weight: bold; /* Bold heading */
+  margin-bottom: 1.5rem; /* Space below the heading */
+  text-align: center; /* Center text */
+}
+
+.form-label {
+  color: #ffffff; /* Label color */
+  font-weight: 500; /* Medium font weight */
+}
+
+.form-control {
+  background-color: #181129; /* Input background */
+  color: white; /* Input text color */
+  border: 1px solid #5b56f7; /* Border color for inputs */
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+.form-control:focus {
+  border-color: #5b56f7; /* Border color when focused */
+  box-shadow: 0 0 5px rgba(91, 86, 247, 0.5); /* Glow effect on focus */
+}
+
+.form-text {
+  color: #cccccc; /* Light gray for help text */
+}
+
+.btn-primary {
+  background-color: #5b56f7; /* Button color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for button */
+  padding: 10px; /* Button padding */
+  font-weight: bold; /* Bold text */
+}
+
+.btn-primary:hover {
+  background-color: #4a4ae6; /* Darker button color on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.mb-3 {
+  margin-bottom: 1rem; /* Space below each form group */
+}
