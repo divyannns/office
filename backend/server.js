@@ -34,7 +34,7 @@ try {
 const app = express();
 app.use(
      cors({
-          origin: "*",
+          origin: "https://office-kunv.onrender.com",
           credentials: true,
      })
 );
