@@ -20,8 +20,8 @@ try {
 
      admin.initializeApp({
           credential: admin.credential.cert(serviceAccount),
-          // databaseURL: "https://react-task-6-5654c-default-rtdb.asia-southeast1.firebasedatabase.app/"
-          databaseURL: process.env.FIREBASE_DATABASE_URL
+          databaseURL: "https://todo-list-eb38f-default-rtdb.firebaseio.com/"
+        //  databaseURL: process.env.FIREBASE_DATABASE_URL
           
      });
 
