@@ -15,8 +15,8 @@ const Users = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch();
-        const data = await response.json("https://office-back.onrender.com/users");
+        const response = await fetch("https://office-back.onrender.com/users");
+        const data = await response.json();
         setRows(data);
       } catch (error) {
         console.error("Error fetching users:", error);
